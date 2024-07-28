@@ -2,60 +2,66 @@
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 1}}
+    Como encontrar a posição de itens em uma lista sem criar uma variável adicional?
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 1}}
+    Você pode usar a função enumerate() para obter tanto o índice quanto o valor de cada item em uma lista durante a iteração. Isso elimina a necessidade de criar uma variável adicional para contar a posição dos itens. Se quiser, teste o código abaixo no online-python.com
+
+<pre class="brush: python">
+numeros = [10, 20, 30, 40]
+for indice, valor in enumerate(numeros):
+    print(f"Índice: {indice}, Valor: {valor}")
+</pre>
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 2}}
+    3
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 2}}
+    4
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 3}}
+    5
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 3}}
+    6
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 4}}
+    7
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 4}}
+    8
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 5}}
+    9
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 5}}
+    10
    </p>
   </div>
  </div>

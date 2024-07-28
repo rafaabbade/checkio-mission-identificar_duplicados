@@ -1,1 +1,14 @@
-{{CODIGO INICIAL}}
+def identificar_duplicados(lista, valor):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(identificar_duplicados([1, 2, 3, 2, 4, 2], 2))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert identificar_duplicados([1, 2, 3, 2, 4, 2], 2) == [1, 3, 5]
+assert identificar_duplicados([5, 5, 5, 5], 5) == [0, 1, 2, 3]
+assert identificar_duplicados([1, 3, 4, 5], 2) == []
+assert identificar_duplicados([2, 2, 2], 2) == [0, 1, 2]
+
+print("Seu código passou pelos testes, clique em Check para avançar!")

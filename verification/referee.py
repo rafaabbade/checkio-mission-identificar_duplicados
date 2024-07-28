@@ -38,7 +38,7 @@ api.add_listener(
     CheckiOReferee(
         tests=TESTS,
         function_name={
-            "python": "{{FUNC}}",
+            "python": "identificar_duplicados",
             "js": "countConsecutiveSummers"
         },
         cover_code={
